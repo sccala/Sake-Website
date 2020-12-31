@@ -1,8 +1,10 @@
 {
   "name": "sakesite",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +13,5 @@
     "lite-server": "^2.5.4"
   },
   "dependencies": {},
-  "description": ""
+  "description": "This is a website for the Bootstrap project."
 }
