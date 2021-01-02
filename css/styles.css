@@ -49,11 +49,22 @@ body {
   font-variant: normal; 
   font-weight: 400; 
   line-height: 23px; 
-background-color:#EBEBEB;}
-
-
+  background-color:#EBEBEB;}
+.btn{
+  border-radius: 0;
+}
+.circle{
+  background-color:#f5ed007c;
+  width: 500px;
+  height: 500px;
+  border-radius:50%;
+  position: absolute;
+  right:-10%;
+}
 header h2 {
-  color: #CEC8FF; }
+  color: #CEC8FF; 
+ 
+}
 
 .hero-text{
   text-align: left;
@@ -72,6 +83,7 @@ header h2 {
   color: #001D3D;
   border-radius:0;
   background-color:#F5EC00;
+  font-size: 1em;
 }
 
 .site-footer {
@@ -115,7 +127,31 @@ a, a:hover {
 .login-button{
   background-color:#F5EC00;
   width:80px;
-  height:40px;
+  height:30px;
   text-align:center;
-  position:relative;
+  
+  font-size:0.8em;
+}
+.card-light{
+background-color:#0052C1;
+}
+.card-medium{
+  background-color:#003566;
+}
+.card-heavy{
+  background-color:#001D3D;
+}
+.card{
+  border-radius: 0;
+
+}
+.card-body{
+  color:white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px;
+  
 }
