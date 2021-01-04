@@ -77,9 +77,6 @@ body {
  
 }
 
-.col{
-  border-bottom-style: none;
-}
 
 
 header h2 {
@@ -181,4 +178,6 @@ background-color:#0052C1;
 .pairing{
   background-color: rgb(255, 255, 255);
   z-index:10;
+  padding-top:5%;
+  padding-bottom:5%;
 }
