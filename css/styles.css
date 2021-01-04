@@ -65,6 +65,11 @@ body {
   padding-top:0.7%;
   padding-bottom:0.7%;
 }
+.form-control{
+  border-radius: 0;
+  color: #001D3D;
+  border:none;
+}
 .circle{
   background-color:#f5ed007c;
   width: 500px;
