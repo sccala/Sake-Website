@@ -69,14 +69,29 @@ body {
   font-size: 14px; 
   font-style: normal; 
   font-variant: normal; 
-  font-weight: 300; 
+  font-weight: 400; 
   line-height: 23px; 
   background-color: #F5EC00;
   color:#001D3D;
   border-style: none;
-
-  
 }
+
+.btn-cancel
+{
+  border-radius: 0;
+  padding-top:0.7%;
+  padding-bottom:0.7%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px; 
+  background-color: rgb(139, 139, 139);
+  color: white;
+  border-style: none;
+}
+
 .form-control{
   border-radius: 0;
   color: #001D3D;
@@ -91,9 +106,7 @@ body {
   right:-10%;
   top:80%;
   z-index:-1;
- 
 }
-
 
 
 header h2 {
@@ -131,19 +144,11 @@ header h2 {
   background-color: #EBEBEB; 
   color: #001D3D;}
 
-.tab-content.tab-content {
-  border: 1px solid #DDD;
-  border-top: none;
-  padding: 10px; }
 
 a, a:hover {
   color: #001D3D;
   text-decoration: none;
    }
-
-
-
-
 
 .no-padding {
   padding-left: 0;
@@ -156,6 +161,14 @@ a, a:hover {
   text-align:center;
   font-size:0.8em;
 }
+.loginitem{
+  border-style:underline;
+}
+.modal-header{
+  background-color:#EBEBEB;
+  
+}
+
 .card-light{
 background-color:#0052C1;
 }
@@ -167,11 +180,13 @@ background-color:#0052C1;
 }
 .card{
   border-radius: 0;
+  
+  
 }
 
 .card-body{
   color:white;
-  height:150px;
+  
 }
 
 .card-text{
@@ -194,6 +209,21 @@ background-color:#0052C1;
   z-index:10;
   padding-top:5%;
   padding-bottom:5%;
+}
+.productcontainer
+{
+  background-color: rgb(255, 255, 255);
+  padding-bottom:5%;
+}
+
+.circle-blue{
+  background-color:#006af54b;
+  width: 500px;
+  height: 500px;
+  border-radius:50%;
+  position: absolute;
+  left:-10%;
+  top:40%;
 }
 .contact-form{
   padding:50px;
