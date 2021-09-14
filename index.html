@@ -20,25 +20,27 @@
         if (this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
     };
     </script>
-
     <title>Sakit: Dive into sake world</title>
 </head>
 
 <body>
-   
-    
 <!-- navbar-->
     <nav class="navbar navbar-expand-sm sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/Sakit_s.png" width=70%/></a>
+            <div class='row'>
+                <a class="col navbar-brand flex" href="#">Sakit<img class='ml-1' width="20"  src='./img/icon.png'/></a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="about.html"> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="product.html"> Product</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"> Contact</a>
+                    <li class="nav-item"><a class="nav-link text-center" href="about.html"> About</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="product.html"> Product</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="contact.html"> Contact</a>
                     <li>
                 </ul>
                 
@@ -155,7 +157,7 @@
 <footer class="site-footer">
     <div class="container">
         <div class="row">
-            <img class="col mr-3" height=60% src="img/Sakit_m.png" />
+            <h1>Sakit</h1><img class="col mr-3" height=20% src="img/icon.png" />
             <div class="col">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
@@ -165,7 +167,7 @@
                     <li><a href="contactus.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="col ">
+            <div class="col">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Home</a></li>
@@ -174,7 +176,7 @@
                     <li><a href="contactus.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="col "><div class="col offset-1">
+            <div class="col"><div class="col offset-1">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Home</a></li>
