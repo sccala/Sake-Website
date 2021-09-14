@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap');
-
 
 h1 {
   font-family: 'Arimo', "Helvetica Neue";
@@ -17,7 +15,7 @@ h2 {
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 30px;
   color: #001D3D;
   padding-bottom: 30px;
@@ -132,16 +130,15 @@ header h2 {
 
 .hero-text {
   font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   text-align: left;
-  position: absolute;
+  
   top: 40%;
   left: 10%;
   color: white;
 }
 
 .hero-button {
-  position: absolute;
   top: 60%;
   left: 10%;
   color: #001D3D;
