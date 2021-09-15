@@ -1,40 +1,308 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap');
+
+h1 {
+  font-family: 'Arimo', "Helvetica Neue";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #001D3D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: 'Arimo',"Helvetica Neue";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #001D3D;
+  padding-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #001D3D;
+}
+h5 {
+  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #001D3D;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #001D3D;
+}
+
+blockquote {
+  font-family:'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+pre {
+  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+body {
+  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+}
+
+hr
+{
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}
+
+
+.navbar-brand{
+font-family: 'Arimo', "Helvetica Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  height: 50px;
+  line-height: 30px;
+  color: #001D3D;
+}
+
+.btn {
+  border-radius: 0;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: #F5EC00;
+  color: #001D3D;
+  border-style: none;
+}
+
+.btn-cancel {
+  border-radius: 0;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: rgb(139, 139, 139);
+  color: white;
+  border-style: none;
+}
+
+.form-control {
+  border-radius: 0;
+  color: #001d3dd3;
+  border: none;
+}
+
+.circle {
+  background-color: #f5ed007c;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: fixed;
+  right: -10%;
+  top: 50%;
+  z-index: -1;
+}
+
+.logo{
+  background-color: #001d3dd3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+header h2 {
+  color: #CEC8FF;
+}
+
+.hero-text {
+  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  padding-left: 5%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.hero-button {
+  top: 60%;
+  left: 10%;
+  color: #001D3D;
+  background-color: #F5EC00;
+  font-size: 0.9em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.site-footer {
+  padding: 5% 0;
+  position: relative;
+  background-color: #EBEBEB;
+  height: 300px;
+}
+
+.row-content {
+  padding: 50px 0;
+  min-height: 200px;
+}
+
+.hero{
+  margin-top:-70px;
+   
+}
+.navbar {
+  color: #001D3D;
+  background-color: #ebebeb91;
+padding-top: 0px;
+padding-bottom: 0px;
 }
 
 
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+ a, a:hover {
+  color: #05488f;
+  text-decoration: none;
+ }
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.login-button {
+  background-color: #F5EC00;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 0.9rem;
+  border-radius: 0.1rem;
+}
+
+.loginitem {
+  border-style: underline;
+}
+
+.modal-header {
+  background-color: #EBEBEB;
+}
+
+.card-light {
+  background-color: #0050c19c;
+  backdrop-filter: blur(3px);
+}
+
+.card-medium {
+  background-color: #003566b0;
+  backdrop-filter: blur(3px);
+}
+
+.card-heavy {
+  background-color: #001d3dc2;
+  backdrop-filter: blur(3px);
+}
+
+.card {
+  border-radius: 0.2rem;
+  z-index: 2;
+  
+}
+
+.card-body {
+  color: white;
+}
+
+.card-text {
+  color: white;
+  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.card-button {
+  background-color: white;
+}
+
+.newsletter {
+  background-color: #F5EC00;
+}
+
+.pairing {
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.productcontainer {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 5%;
+  z-index: -1;
+}
+
+.circle-blue {
+  background-color: #006af54b;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: fixed;
+  left: -10%;
+  top: 40%;
+  z-index: 1;
+}
+
+.contact-form {
+  padding: 50px;
+}
+
+.aboutcontianer {
+  padding-top: 30px;
+}

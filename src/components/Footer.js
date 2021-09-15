@@ -4,19 +4,23 @@ export const Footer = () => {
       <footer className='site-footer'>
         <div className='container'>
           <div className='row'>
-            <h1>Sakit</h1>
-            <img alt='sake' className='col mr-3' height='20%' src='img/icon.png' />
+            <div className='col-6'>
+              <a className='col navbar-brand flex' href='/home'>
+                Sakit
+                <img className='m-1' width='18' src='./assets/icon.png' alt='icon' />
+              </a>
+            </div>
             <div className='col'>
               <h5>Links</h5>
               <ul className='list-unstyled'>
                 <li>
-                  <a href='/home'>Home</a>
+                  <a href='home.html'>Home</a>
                 </li>
                 <li>
-                  <a href='aboutus.html'>About</a>
+                  <a href='contactus.html'>About</a>
                 </li>
                 <li>
-                  <a href='/home'>Sites</a>
+                  <a href='contactus.html'>Sites</a>
                 </li>
                 <li>
                   <a href='contactus.html'>Contact</a>
@@ -27,13 +31,13 @@ export const Footer = () => {
               <h5>Links</h5>
               <ul className='list-unstyled'>
                 <li>
-                  <a href='/home'>Home</a>
+                  <a href='home.html'>Home</a>
                 </li>
                 <li>
-                  <a href='aboutus.html'>About</a>
+                  <a href='contactus.html'>About</a>
                 </li>
                 <li>
-                  <a href='/home'>Sites</a>
+                  <a href='contactus.html'>Sites</a>
                 </li>
                 <li>
                   <a href='contactus.html'>Contact</a>
@@ -41,23 +45,21 @@ export const Footer = () => {
               </ul>
             </div>
             <div className='col'>
-              <div className='col offset-1'>
-                <h5>Links</h5>
-                <ul className='list-unstyled'>
-                  <li>
-                    <a href='/home'>Home</a>
-                  </li>
-                  <li>
-                    <a href='aboutus.html'>About</a>
-                  </li>
-                  <li>
-                    <a href='/home'>Sites</a>
-                  </li>
-                  <li>
-                    <a href='contactus.html'>Contact</a>
-                  </li>
-                </ul>
-              </div>
+              <h5>Links</h5>
+              <ul className='list-unstyled'>
+                <li>
+                  <a href='home.html'>Home</a>
+                </li>
+                <li>
+                  <a href='contactus.html'>About</a>
+                </li>
+                <li>
+                  <a href='contactus.html'>Sites</a>
+                </li>
+                <li>
+                  <a href='contactus.html'>Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
