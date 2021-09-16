@@ -1,4 +1,3 @@
-import { Button } from './Button/Button'
 
 export const Contact = () => {
   return (
@@ -96,10 +95,10 @@ export const Contact = () => {
             </form>
           </div>
           <div className='row'>
-            <div className='text-end'>
-              <Button height='10px' type='submit'>
+            <div className='col text-end'>
+              <button className='contactbutton ' type='submit'>
                 Send
-              </Button>
+              </button>
             </div>
           </div>
         </div>

@@ -46,8 +46,7 @@ export const Home = () => {
           <div className='col-6 py-8'>
             <h2>Easy to pair with your favorite food</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui.
+              It absolutely goes with any kind of your favorite food. Best marriage is with sashimi, oden, sushi of course, but also tacos, spaghetti, fried chicken, and humbergers as well!
             </p>
           </div>
           <img className='col-6' src='assets/sakedish.png' alt='dog stares at sake' />
@@ -61,7 +60,7 @@ export const Home = () => {
             <h2>Deliver with nice package</h2>
             <p>
               Your first delivery comes with everything you need to start your sake-drinking
-              journey—the Tippsy Sake Guide for beginners and mini bottles from the three main sake
+              journey. We guide for beginners and mini bottles from the three main sake
               categories (junmai, ginjo, and daiginjo), as well as the popular cloudy sake known as
               nigori.
             </p>

@@ -131,10 +131,9 @@ li {
   border-style: none;
 } */
 
-.contact{
+.contact {
   padding-top: 5%;
   padding-bottom: 5%;
-
 }
 /* .form-control {
   border-radius: 0;
@@ -142,7 +141,7 @@ li {
   border: none;
 } */
 
-.form-group{
+.form-group {
   margin-bottom: 2%;
 }
 
@@ -169,7 +168,7 @@ header h2 {
 
 .hero {
   margin-bottom: 10%;
-   margin-top: 10%;
+  margin-top: 10%;
 }
 .hero-text {
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -179,6 +178,22 @@ header h2 {
 
 .promobutton {
   margin-top: 10%;
+}
+.contactbutton {
+  border-radius: 2em;
+  padding: 1% 5%;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 23px;
+  background-color: #f5ec00;
+  color: #001d3d;
+  border-style: none;
+  text-decoration: none;
+  letter-spacing: 0.07rem;
+  text-align: center;
 }
 
 .site-footer {
@@ -199,7 +214,7 @@ header h2 {
   background-color: #ebebeb91;
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family:'Arimo', 'Helvetica Neue' ;
+  font-family: 'Arimo', 'Helvetica Neue';
 }
 
 a,
@@ -239,17 +254,15 @@ a:hover {
   background-color: #ebebeb;
 }
 
-
 .card-img-top {
   width: 100%;
   padding: 0px;
   margin: 0px;
 }
 
-.circle-image{
-    width: 20vw; 
+.circle-image {
+  width: 20vw;
   height: 20vw;
-
 }
 .card-img-top-product {
   width: 100%;
