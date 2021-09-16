@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap');
 
 h1 {
-  font-family: 'Arimo', "Helvetica Neue";
-  font-size: 24px;
+  font-family: 'Arimo', 'Helvetica Neue';
+  font-size: 48px;
   font-weight: 700;
   line-height: 30px;
-  color: #001D3D;
+  color: #001d3d;
 }
 
 h2 {
-  font-family: 'Arimo',"Helvetica Neue";
+  font-family: 'Arimo', 'Helvetica Neue';
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
-  color: #001D3D;
+  color: #001d3d;
   padding-bottom: 30px;
 }
 
 h3 {
-  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 23px;
-  color: #001D3D;
+  color: #001d3d;
 }
 h5 {
-  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 23px;
-  color: #001D3D;
+  color: #001d3d;
 }
 
 p {
-  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 23px;
-  color: #001D3D;
+  color: #001d3d;
 }
 
 blockquote {
-  font-family:'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-variant: normal;
@@ -56,7 +56,7 @@ blockquote {
 }
 
 pre {
-  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-variant: normal;
@@ -65,7 +65,7 @@ pre {
 }
 
 body {
-  font-family: 'Arimo',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -76,46 +76,44 @@ body {
   margin: 0;
 }
 
-hr
-{
-    background-color: #eee;
-    border: 0 none;
-    color: #eee;
-    height: 1px;
+hr {
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 1px;
 }
 
-
-.navbar-brand{
-font-family: 'Arimo', "Helvetica Neue";
+.navbar-brand {
+  font-family: 'Arimo', 'Helvetica Neue';
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   height: 50px;
   line-height: 30px;
-  color: #001D3D;
+  color: #001d3d;
 }
 
-.btn {
-  border-radius: 0;
-  padding-top: 0.7%;
-  padding-bottom: 0.7%;
-  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+.btn-hero {
+  border-radius: 2em;
+  padding: 3% 10%;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 23px;
-  background-color: #F5EC00;
-  color: #001D3D;
+  background-color: #f5ec00;
+  color: #001d3d;
   border-style: none;
+  text-decoration: none;
 }
 
 .btn-cancel {
   border-radius: 0;
   padding-top: 0.7%;
   padding-bottom: 0.7%;
-  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -143,42 +141,36 @@ font-family: 'Arimo', "Helvetica Neue";
   z-index: -1;
 }
 
-.logo{
+.logo {
   background-color: #001d3dd3;
   width: 20px;
   height: 20px;
   border-radius: 50%;
 }
 header h2 {
-  color: #CEC8FF;
+  color: #cec8ff;
 }
 
+.hero {
+  margin-bottom: 10%;
+
+  padding-top: 10%;
+}
 .hero-text {
-  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-align: left;
-  position: absolute;
-  top: 30%;
-  padding-left: 5%;
-  color: white;
+  color: #001d3d;
+  padding-top: 30%;
 }
 
-
-
-
-.hero-button {
-  top: 60%;
-  left: 10%;
-  color: #001D3D;
-  background-color: #F5EC00;
-  font-size: 0.9em;
+.promobutton {
+  margin-top: 10%;
 }
-
 
 .site-footer {
   padding: 5% 0;
   position: relative;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   height: 300px;
 }
 
@@ -187,27 +179,26 @@ header h2 {
   min-height: 200px;
 }
 
-.hero{
-  margin-top:-70px;
-   
-}
 .navbar {
-  color: #001D3D;
+  color: #001d3d;
   background-color: #ebebeb91;
-padding-top: 0px;
-padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-
-a, a:hover, a:visited, a:active {
+a,
+a:hover,
+a:visited,
+a:active {
   color: inherit;
   text-decoration: none;
- }
+}
 
- a, a:hover {
+a,
+a:hover {
   color: #05488f;
   text-decoration: none;
- }
+}
 
 .no-padding {
   padding-left: 0;
@@ -215,7 +206,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .login-button {
-  background-color: #F5EC00;
+  background-color: #f5ec00;
   width: 90px;
   height: 30px;
   text-align: center;
@@ -229,7 +220,13 @@ a, a:hover, a:visited, a:active {
 }
 
 .modal-header {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
+}
+
+.card-img-top {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .card-light {
@@ -250,16 +247,21 @@ a, a:hover, a:visited, a:active {
 .card {
   border-radius: 0.2rem;
   z-index: 2;
-  
+  box-shadow: 3px 3px 8px hsla(0, 0%, 0%, 0.151);
 }
+
+.card:hover {
+  opacity: 0.8;
+}
+
 
 .card-body {
   color: white;
 }
 
 .card-text {
-  color: white;
-  font-family: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #001d3d;
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -272,7 +274,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .newsletter {
-  background-color: #F5EC00;
+  background-color: #f5ec00;
 }
 
 .pairing {
@@ -285,7 +287,7 @@ a, a:hover, a:visited, a:active {
 .productcontainer {
   background-color: rgb(255, 255, 255);
   padding-bottom: 5%;
-  z-index: -1;
+  z-index: -2;
 }
 
 .circle-blue {
@@ -296,11 +298,7 @@ a, a:hover, a:visited, a:active {
   position: fixed;
   left: -10%;
   top: 40%;
-  z-index: 1;
-}
-
-.contact-form {
-  padding: 50px;
+  z-index: 0;
 }
 
 .aboutcontianer {

@@ -11,19 +11,19 @@ export const Footer = () => {
               </a>
             </div>
             <div className='col'>
-              <h5>Links</h5>
+              <h5>Sitemap</h5>
               <ul className='list-unstyled'>
                 <li>
-                  <a href='home.html'>Home</a>
+                  <a href='/home'>Home</a>
                 </li>
                 <li>
-                  <a href='contactus.html'>About</a>
+                  <a href='/products'>About</a>
                 </li>
                 <li>
-                  <a href='contactus.html'>Sites</a>
+                  <a href='/about'>Sites</a>
                 </li>
                 <li>
-                  <a href='contactus.html'>Contact</a>
+                  <a href='/contact'>Contact</a>
                 </li>
               </ul>
             </div>
@@ -62,6 +62,8 @@ export const Footer = () => {
               </ul>
             </div>
           </div>
+          <hr />
+          <p className='justify-content-end'>Sakit.com © 2002 - 2021 All rights reserved</p>
         </div>
       </footer>
     </>

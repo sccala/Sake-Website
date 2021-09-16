@@ -33,19 +33,19 @@ export const Header = () => {
           <div className='justify-content-end collapse navbar-collapse' id='nucampNavbar'>
             <ul className='navbar-nav'>
               <li className='nav-item  px-2'>
-                <a className='nav-link text-center' href='about.html'>
+                <a className='nav-link text-center' href='/about'>
                   {' '}
                   About
                 </a>
               </li>
               <li className='nav-item  px-2'>
-                <a className='nav-link text-center' href='product.html'>
+                <a className='nav-link text-center' href='/products'>
                   {' '}
                   Product
                 </a>
               </li>
               <li className='nav-item  px-2'>
-                <a className='nav-link text-center' href='contact.html'>
+                <a className='nav-link text-center' href='/contact'>
                   {' '}
                   Contact
                 </a>
