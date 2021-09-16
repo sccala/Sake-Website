@@ -20,7 +20,7 @@ export const PRODUCTS = [
     style: 'semi-sweet',
     taste: 'floral, crisp',
     body: 'light',
-    description: '',
+    description: 'Hakutsuru is the one of the traditional brewery. Try the best Japanese Sake!',
     image: '/assets/products/hakutsuru.png',
     price: '$12.59',
   },
@@ -32,7 +32,8 @@ export const PRODUCTS = [
     style: 'semi-sweet',
     taste: 'dry, crisp',
     body: 'light',
-    description: '',
+    description:
+      'Dry, and crispy outcome with slight koji flavor. It perfectly goes with sashimi, carpaccio, chocolate, and any cheese!',
     image: '/assets/products/gekkeikan.png',
     price: '$7.49',
   },

@@ -5,7 +5,8 @@ export const Header = () => {
         <div className='container'>
           <div className='row'>
             <a className='col navbar-brand flex' href='/home'>
-              Sakit<img className='m-1' width='18' src='./assets/icon.png' alt='icon' />
+              Sakit
+              <img className='m-1' width='18' src='./assets/icon.png' alt='icon' />
             </a>
           </div>
           <button
@@ -33,15 +34,15 @@ export const Header = () => {
           <div className='justify-content-end collapse navbar-collapse' id='nucampNavbar'>
             <ul className='navbar-nav'>
               <li className='nav-item  px-2'>
-                <a className='nav-link text-center' href='/about'>
-                  {' '}
-                  About
-                </a>
-              </li>
-              <li className='nav-item  px-2'>
                 <a className='nav-link text-center' href='/products'>
                   {' '}
                   Product
+                </a>
+              </li>
+              <li className='nav-item  px-2'>
+                <a className='nav-link text-center' href='/about'>
+                  {' '}
+                  About
                 </a>
               </li>
               <li className='nav-item  px-2'>

@@ -16,12 +16,12 @@ export class ProductLineup extends Component {
     return (
       <>
         {PRODUCTS.map(products => (
-          <div className='col-md-4 col-sm-8'>
+          <div className='col-lg-3 col-md-4 col-sm-6'>
             <ProductCard
               image={products.image}
               name={products.name}
               brand={products.brand}
-              description={products.name}
+              description={products.description}
             />
           </div>
         ))}

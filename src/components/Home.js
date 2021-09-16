@@ -9,7 +9,7 @@ export const Home = () => {
       <div className='container'>
         <div className='circle'></div>
         <div className='row row-content '>
-          <h2 className=' mb-3'>Choose from 3 types</h2>
+          <h2 className='mb-3'>Choose from 3 types</h2>
           <p className=' mb-3'>
             Carefully curated 10-oz bottles, there are 3 plans has 3, 6, 10 bottles for each Light,
             Medium, Heavy plan. plus you earn 6% cashback points to buy your favorites among 300+
@@ -72,7 +72,7 @@ export const Home = () => {
       <div className='container'>
         <div className='row row-content align-items-center'>
           <div className='col-6'>
-            <h3>Get promo code monthly 😄</h3>
+            <h3>Get monthly promo code 😄</h3>
           </div>
           <div className='col-6 form-group row'>
             <input

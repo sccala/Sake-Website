@@ -3,10 +3,10 @@ import { Button } from './Button/Button'
 export const Contact = () => {
   return (
     <>
-      <div className='container mx-8'>
+      <div className='container contact'>
         <div className='row align-items-center'>
-          <img className='col-6' width='70%' src='assets/sakeflower.png' alt='sake and flowers' />
-          <div className='col-6  contact-form'>
+          {/* <img className='col-6' width='70%' src='assets/sakedog.png' alt='sake and flowers' /> */}
+          <div className='col contact-form'>
             <h2>Got questions? Contact us!</h2>
             <form>
               <div className='form-group row'>
@@ -23,7 +23,6 @@ export const Contact = () => {
                   />
                 </div>
               </div>
-
               <div className='form-group row'>
                 <div className='col'>
                   <label htmlFor='phone' className='col-md-2 col-form-label'>
@@ -94,12 +93,14 @@ export const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className='form-group row'>
-                <div className='col'>
-                  <Button type='submit'>Send</Button>
-                </div>
-              </div>
             </form>
+          </div>
+          <div className='row'>
+            <div className='text-end'>
+              <Button height='10px' type='submit'>
+                Send
+              </Button>
+            </div>
           </div>
         </div>
       </div>

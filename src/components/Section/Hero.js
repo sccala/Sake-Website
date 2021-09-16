@@ -16,7 +16,7 @@ export const Hero = () => {
                 See Products
               </Button>
             </div>
-            <img className='col-6 ' src='/assets/sakeflower-hero.png' alt='sake' />
+            <img className='col-6' src='/assets/sakeflower-hero.png' alt='sake' />
           </div>
         </div>
       </div>

@@ -83,24 +83,23 @@ hr {
   height: 1px;
 }
 
-li{
+li {
   color: #001d3d;
-   line-height: 30px;
+  line-height: 30px;
 }
 
 .navbar-brand {
   font-family: 'Arimo', 'Helvetica Neue';
-  font-size: 24px;
+  font-size: 30px !important;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 600;
   height: 50px;
-  line-height: 30px;
   color: #001d3d;
 }
 
 .btn-hero {
-  margin-top:5% !important;
+  margin-top: 5% !important;
   border-radius: 2em;
   padding: 3% 10%;
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -114,9 +113,9 @@ li{
   border-style: none;
   text-decoration: none;
   letter-spacing: 0.07rem;
-  text-align:center;
+  text-align: center;
 }
-
+/* 
 .btn-cancel {
   border-radius: 0;
   padding-top: 0.7%;
@@ -130,12 +129,21 @@ li{
   background-color: rgb(139, 139, 139);
   color: white;
   border-style: none;
-}
+} */
 
-.form-control {
+.contact{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+/* .form-control {
   border-radius: 0;
   color: #001d3dd3;
   border: none;
+} */
+
+.form-group{
+  margin-bottom: 2%;
 }
 
 .circle {
@@ -161,12 +169,12 @@ header h2 {
 
 .hero {
   margin-bottom: 10%;
-  margin-top: 10%;
+   margin-top: 10%;
 }
 .hero-text {
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: #001d3d; 
+  color: #001d3d;
 }
 
 .promobutton {
@@ -177,7 +185,8 @@ header h2 {
   padding: 5% 0;
   position: relative;
   background-color: #ebebeb;
-  height: 300px;
+  min-height: 50vh;
+  font-size: 13px;
 }
 
 .row-content {
@@ -190,6 +199,7 @@ header h2 {
   background-color: #ebebeb91;
   padding-top: 0px;
   padding-bottom: 0px;
+  font-family:'Arimo', 'Helvetica Neue' ;
 }
 
 a,
@@ -229,13 +239,30 @@ a:hover {
   background-color: #ebebeb;
 }
 
+
 .card-img-top {
   width: 100%;
   padding: 0px;
   margin: 0px;
 }
 
-.card-light {
+.circle-image{
+    width: 20vw; 
+  height: 20vw;
+
+}
+.card-img-top-product {
+  width: 100%;
+  padding: 10%;
+  margin: 0px;
+}
+.card-brand {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+}
+
+/* .card-light {
   background-color: #0050c19c;
   backdrop-filter: blur(3px);
 }
@@ -248,7 +275,7 @@ a:hover {
 .card-heavy {
   background-color: #001d3dc2;
   backdrop-filter: blur(3px);
-}
+} */
 
 .card {
   border-radius: 0.2rem;
@@ -260,9 +287,9 @@ a:hover {
   opacity: 0.8;
 }
 
-
 .card-body {
-  color: white;
+  color: rgb(165, 153, 153);
+  margin-bottom: 10%;
 }
 
 .card-text {
@@ -307,6 +334,13 @@ a:hover {
   z-index: 0;
 }
 
-.aboutcontianer {
-  padding-top: 30px;
+.circle-about {
+  background-color: #009bf51e;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: fixed;
+  left: 60%;
+  top: 5%;
+  z-index: 0;
 }
