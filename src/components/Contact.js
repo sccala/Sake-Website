@@ -1,4 +1,4 @@
-import { Button } from "./Button"
+import { Button } from './Button/Button'
 
 export const Contact = () => {
   return (
@@ -96,9 +96,7 @@ export const Contact = () => {
               </div>
               <div className='form-group row'>
                 <div className='col'>
-                  <Button type='submit' >
-                    Send
-                  </Button>
+                  <Button type='submit'>Send</Button>
                 </div>
               </div>
             </form>

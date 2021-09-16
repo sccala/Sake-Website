@@ -1,6 +1,6 @@
-import { Button } from './Button'
-import { Card } from './Card'
-import { Hero } from './Hero'
+import { Button } from './Button/Button'
+import { Card } from './Cards/Card'
+import { Hero } from './Section/Hero'
 
 export const Home = () => {
   return (

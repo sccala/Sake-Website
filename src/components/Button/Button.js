@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 
 export const Button = props => {
   const { children, buttonlink } = props

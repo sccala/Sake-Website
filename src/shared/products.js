@@ -1,4 +1,4 @@
-export const products = [
+export const PRODUCTS = [
   {
     id: 0,
     name: 'Sayuri Junmai Nigori',
@@ -9,19 +9,19 @@ export const products = [
     body: 'light',
     description:
       'Japan - Sayuri means ""little lily"" a perfect description for this soft floral-noted Nigori. This unfiltered sake has a very light nose filled with lush cream, cherry blossom, and light fruit. Semi-sweet palate with a very smooth finish.',
-    image: 'https://github.com/chiyomi1104/React_Nucampsite',
+    image: '/assets/products/sayuri.png',
     price: '$11',
   },
   {
     id: 1,
     name: 'Superior Junmai Ginjo',
     brand: 'Hakutsuru',
-    type: 'plum',
+    type: 'sake',
     style: 'semi-sweet',
     taste: 'floral, crisp',
     body: 'light',
     description: '',
-    image: '',
+    image: '/assets/products/hakutsuru.png',
     price: '$12.59',
   },
   {
@@ -33,7 +33,7 @@ export const products = [
     taste: 'dry, crisp',
     body: 'light',
     description: '',
-    image: '',
+    image: '/assets/products/gekkeikan.png',
     price: '$7.49',
   },
   {
@@ -46,7 +46,7 @@ export const products = [
     body: 'light',
     description:
       'A blend of two sakes. Hints of honeydew, papaya, anise and roasted nuts, full-bodied with a long, smooth finish.',
-    image: '',
+    image: '/assets/products/blackgold.png',
     price: '$7.49',
   },
   {
@@ -59,7 +59,7 @@ export const products = [
     body: 'light',
     description:
       'Japan - Delicate & refreshingly sweet with flavors of honeydew, lemongrass & peaches. Great with spicy or sweet fare - rolls made with hot peppers or chile oils, or those with fruit - a great finisher - refreshing - not too sweet!',
-    image: '',
+    image: '/assets/products/mio.png',
     price: '$10.99',
   },
   {
@@ -72,22 +72,10 @@ export const products = [
     body: 'light',
     description:
       'Small batch microbrew, limited production. Slowly fermented at low temperatures for a more refined flavor. Mild, fruity aroma, hints of cantaloupe and honeysuckle, and a long, clean finish.',
-    image: '',
+    image: '/assets/products/horin.png',
     price: '$38.99',
   },
-  {
-    id: 5,
-    name: 'Horin Sake',
-    brand: 'Gekkeikan',
-    type: 'sake',
-    style: 'semi-sweet',
-    taste: 'Fruity, Clean',
-    body: 'light',
-    description:
-      'Small batch microbrew, limited production. Slowly fermented at low temperatures for a more refined flavor. Mild, fruity aroma, hints of cantaloupe and honeysuckle, and a long, clean finish.',
-    image: '',
-    price: '$38.99',
-  },
+
   {
     id: 6,
     name: 'Rock Sake Cloud',
@@ -98,7 +86,7 @@ export const products = [
     body: 'light',
     description:
       'California - Distilled from California rice with no additional alcohol, or preservatives added during the brewing process. Rough filtered for an opaque appearance and sweeter flavor. Aroma is clean and fresh, slightly sweet, with hints of melon and coconut and a delicate finish.',
-    image: '',
+    image: '/assets/products/rocksake.png',
     price: '$24.49',
   },
   {
@@ -111,7 +99,7 @@ export const products = [
     body: 'full',
     description:
       'Made exclusively from Ume plums. Fermented and aged for 3 years. Hints of apple and pear. Rich and full-bodied with a long, smooth finish.',
-    image: '',
+    image: '/assets/products/plum_gekkeikan.png',
     price: '$12.99',
   },
   {
@@ -124,7 +112,7 @@ export const products = [
     body: 'full',
     description:
       'Japan - SHO-UNE, meaning ""soaring clouds"", is a very well balanced, high quality Sake. The nose is filled with peach and apple aromas. The palate has a delicate texture and hints of pear flavor. Deeply complex, yet smooth, absolutely phenomenal!',
-    image: '',
+    image: '/assets/products/shoun.png',
     price: '$12.99',
   },
   {
@@ -137,7 +125,7 @@ export const products = [
     body: 'Medium',
     description:
       'Akashi City, Japan - Umeshu is a plum infused Sake. Slightly sweeter flavor making for a perfect apertif or digestif. Serve chilled, over ice or even with soda water. Commonly used as a substitute for liquors, such as sweet vermouth. SULFITE FREE - GLUTEN FREE - 100% VEGAN',
-    image: '',
+    image: '/assets/products/hanagoiplum.png',
     price: '$22.99',
   },
 ]

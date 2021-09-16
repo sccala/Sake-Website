@@ -83,6 +83,11 @@ hr {
   height: 1px;
 }
 
+li{
+  color: #001d3d;
+   line-height: 30px;
+}
+
 .navbar-brand {
   font-family: 'Arimo', 'Helvetica Neue';
   font-size: 24px;
@@ -95,18 +100,21 @@ hr {
 }
 
 .btn-hero {
+  margin-top:5% !important;
   border-radius: 2em;
   padding: 3% 10%;
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 23px;
   background-color: #f5ec00;
   color: #001d3d;
   border-style: none;
   text-decoration: none;
+  letter-spacing: 0.07rem;
+  text-align:center;
 }
 
 .btn-cancel {
@@ -153,14 +161,12 @@ header h2 {
 
 .hero {
   margin-bottom: 10%;
-
-  padding-top: 10%;
+  margin-top: 10%;
 }
 .hero-text {
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #001d3d;
-  padding-top: 30%;
+  font-weight: 600;
+  color: #001d3d; 
 }
 
 .promobutton {
@@ -190,8 +196,8 @@ a,
 a:hover,
 a:visited,
 a:active {
-  color: inherit;
-  text-decoration: none;
+  color: #001d3d;
+  text-decoration: none !important;
 }
 
 a,
@@ -262,7 +268,7 @@ a:hover {
 .card-text {
   color: #001d3d;
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-variant: normal;
   font-weight: 300;
