@@ -4,15 +4,22 @@ h1 {
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 48px;
   font-weight: 700;
-  line-height: 1.1rem;
   color: #001d3d;
+}
+.hero-text {
+  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #001d3d;
+  font-size: 48px;
+  line-height: 3rem;
+  margin-bottom: 10%;
 }
 
 h2 {
   font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.1rem;
   color: #001d3d;
   padding-bottom: 30px;
 }
@@ -74,13 +81,6 @@ body {
   background-color: #fafafa;
   padding: 0;
   margin: 0;
-}
-
-hr {
-  background-color: #eee;
-  border: 0 none;
-  color: rgb(138, 138, 138);
-  height: 1px;
 }
 
 li {
@@ -170,12 +170,7 @@ header h2 {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-.hero-text {
-  font-family: 'Arimo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  color: #001d3d;
-  line-height: 1.2rem;
-}
+
 
 .promobutton {
   margin-top: 10%;
