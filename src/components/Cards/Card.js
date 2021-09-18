@@ -7,7 +7,7 @@ export const Card = props => {
       <img className='card-img-top' src={image} alt={title} />
       <div className='card-body'>
         <h5 className='card-title'>{title}</h5>
-        <p className='card-text'>{description}</p>
+        <p className='card-text d-none d-md-block'>{description}</p>
         <Button href={buttonlink}>{buttontxt}</Button>
       </div>
     </div>

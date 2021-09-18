@@ -6,11 +6,10 @@ export const Products = () => {
     <>
       <div className='container'>
         <div className='row row-content'>
-          <div className='col-12'>
+          <div className='col-12 text-md-start text-center'>
             <h2>Product Lineup</h2>
             <p>These are one of our popular ones. We also have wide range of selection from micro breweries to traditional breweries. If you have any questions or request, please feel free to contact us.</p>
             <div className='row row-content'>
-                
               <ProductLineup />
             </div>
             <h2>Choose from 3 types</h2>

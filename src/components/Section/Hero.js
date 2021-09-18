@@ -6,8 +6,8 @@ export const Hero = () => {
       <div className='hero'>
         <div className='container'>
           <div className='row align-items-center'>
-            <div className='col-6 '>
-              <h1 className='hero-text'>Dive into sake world 🍶</h1>
+            <div className='col-sm-12 text-md-start text-center col-md-6'>
+              <h1>Dive into sake world 🍶</h1>
               <p>
                 Curated sake will be delivered to your door. We will strictly select genuine sake
                 including Dassai, Gekkeikan, Sho Chiku Bai, Ume Plum, and more!
@@ -16,7 +16,11 @@ export const Hero = () => {
                 See Products
               </Button>
             </div>
-            <img className='col-6' src='/assets/sakeflower-hero.png' alt='sake' />
+            <img
+              className='d-none d-md-block col-md-6'
+              src='/assets/sakeflower-hero.png'
+              alt='sake'
+            />
           </div>
         </div>
       </div>
