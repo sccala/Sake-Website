@@ -21,7 +21,6 @@ export const App = () => {
           <Route path='/products' component={Products} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-        <Redirect to='/home' />
       </BrowserRouter>
       <Footer />
     </>
